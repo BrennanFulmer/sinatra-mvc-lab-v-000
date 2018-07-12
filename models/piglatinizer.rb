@@ -4,8 +4,6 @@ class PigLatinizer
   def piglatinize(text)
     vowels = ['a', 'e', 'i', 'o', 'u']
 
-    # binding.pry
-
     if text.strip.include?(' ')
       seperated = text.split(' ')
 
